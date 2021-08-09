@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* resuable css */
+
+.container {
+    max-width: 1465px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff523b;
+    color: #000;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: green;
+}
+
+
+/* navar design start */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.logo span {
+    color: green;
+}
+
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: gray;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: white;
+    background: green;
+    transition: .5s;
+}
+
+/* Trees styles */
+
+.tree .tree-thumbnail img {
+    width: 100%;
+
+}
+
+.trees {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+
+}
+
+.tree-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Foreigntree {
+    padding-top: 100px;
+}
+
+.fa-star {
+    font-size: 12px;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+}
+
+.fa-star.empty {
+    color: #AEAEAE;
+}
+
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+    }
+
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+}
+
+
+/* tree product details */
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img {
+    max-width: 100%;
+    padding: 50px;
+}
+
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.row-2 {
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+
+.single-product {
+    margin-top: 80px;
+
+}
+
+.single-product .col-2 {
+    padding: 20px;
+
+}
+
+.single-product .col-2 img {
+    padding: 20px;
+
+}
+
+.single-product h4 {
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+
+
+.small-img-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+
+}
+
+
+/* cart design */
+
+.cartpage {
+    margin: 80px auto;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cartinfo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: #ff523b;
+}
+
+td {
+    padding: 10px 5px;
+}
+
+td input {
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
+td a {
+    color: #ff523b;
+    font-size: 12px;
+}
+
+td img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.totalprice {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.totalprice table {
+    border-top: 3px solid #ff523b;
+    width: 100%;
+    max-width: 400px;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+th:last-child {
+    text-align: right;
+}

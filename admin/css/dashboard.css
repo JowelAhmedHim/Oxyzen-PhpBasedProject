@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* header style */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: seagreen;
+    padding: 0 25px;
+}
+
+.btn-big {
+    padding: 10px;
+    background-color: tomato;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.logo h1 {
+    color: white;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+
+
+.user i {
+    font-size: 20px;
+
+}
+
+.fa-user-circle {
+    padding-right: 10px;
+}
+
+.fa-sign-out-alt {
+    padding-left: 10px;
+
+}
+
+/* hedaer style end */
+
+
+/* sidebar style start */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.admin-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin-left: 200px;
+    overflow: auto;
+
+
+}
+
+.category {
+    padding: 100px
+}
+
+
+
+.form input {
+    outline: 0;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+
+.form input:hover {
+    background-color: #D3F8F9;
+    transition: all 1s ease 0s;
+
+}
+
+
+
+.form button {
+    text-transform: capitalize;
+    outline: 0;
+    border-radius: 10px;
+    background-color: skyblue;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background-color: #06C5CF;
+    transition: all 1s ease 0s;
+}

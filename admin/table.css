@@ -1,0 +1,56 @@
+.table {
+    border: 2px solid green;
+    margin: 20px;
+}
+
+.table td {
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.table tr:nth-child(2n+1) {
+    background: #fff;
+    height: 30px;
+}
+
+.table tr:nth-child(2n) {
+    background: #f1f1f1;
+    height: 30px;
+}
+
+.table th,
+td {
+    width: 20%;
+    border: 1px solid green;
+
+
+}
+
+.table th {
+    color: green;
+}
+
+.table .delete {
+    color: red;
+}
+
+label {
+    color: green;
+    font-size: 18px;
+
+}
+
+
+input {
+    padding: 10px;
+
+}
+
+.btn {
+    background-color: seagreen;
+    border: none;
+    width: 100px;
+    color: white;
+}
